@@ -1,0 +1,20 @@
+O objetivo do código é implementar um jogo chamado "Zero Cancela", onde o usuário deve inserir uma série de números positivos. O jogo possui as seguintes regras e funcionalidades:
+
+- Entrada de Números:
+O usuário pode digitar quantos números quiser.
+A inserção de números termina quando um número negativo é digitado.
+
+- Desconsiderar Números:
+O usuário pode desconsiderar um número digitando 0.
+O usuário só pode usar essa função de desconsiderar até 3 vezes.
+Se 3 zeros consecutivos forem digitados, uma mensagem de alerta é exibida, e o próximo zero não será aceito.
+
+- Processamento dos Números:
+Números positivos são somados.
+O número mais recente inserido (antes do zero) é removido da soma quando um zero é usado para desconsiderar.
+
+- Resultados Finais:
+O programa exibe a soma dos números considerados.
+O número total de números considerados e desconsiderados é mostrado ao final do jogo.
+
+Esse código realiza a coleta de números, aplica as regras de desconsideração e imprime os resultados ao final do jogo.
